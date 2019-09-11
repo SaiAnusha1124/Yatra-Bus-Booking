@@ -8,8 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-
 import com.yatra.utils.ConstantsFilePaths;
 import com.yatra.utils.ReadLocatorsFile;
 

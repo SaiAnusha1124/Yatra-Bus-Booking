@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.yatra.testscripts.SampleTestCases">
+      <class name="com.yatra.testscripts.FillPassengerDetails">
         <methods>
-          <include name="sampletestcases"/>
+          <include name="fillingTravellerDetails"/>
           <include name="initializeBrowser"/>
         </methods>
-      </class> <!-- com.yatra.testscripts.SampleTestCases -->
+      </class> <!-- com.yatra.testscripts.FillPassengerDetails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
