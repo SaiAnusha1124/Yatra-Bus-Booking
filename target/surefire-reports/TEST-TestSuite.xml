@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="71.59" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="96.819" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\saianusha.podichervu\AppData\Local\Temp\surefire10802497342077873890\surefirebooter207039612348454226.jar C:\Users\saianusha.podichervu\AppData\Local\Temp\surefire10802497342077873890 2019-09-13T14-48-27_229-jvmRun1 surefire2392068292408824879tmp surefire_016743131650023918973tmp"/>
+    <property name="sun.java.command" value="C:\Users\saianusha.podichervu\AppData\Local\Temp\surefire18081034211066945631\surefirebooter9383194775829412464.jar C:\Users\saianusha.podichervu\AppData\Local\Temp\surefire18081034211066945631 2019-09-13T18-59-28_612-jvmRun1 surefire6808363112256664040tmp surefire_06231286666716005503tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\saianusha.podichervu\eclipse-workspace\Yatra-Assignment\target\test-classes;C:\Users\saianusha.podichervu\eclipse-workspace\Yatra-Assignment\target\classes;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\saianusha.podichervu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\saianusha.podichervu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\saianusha.podichervu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\saianusha.podichervu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\saianusha.podichervu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\saianusha.podichervu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\saianusha.podichervu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\saianusha.podichervu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\saianusha.podichervu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\saianusha.podichervu\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\saianusha.podichervu\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\saianusha.podichervu\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\saianusha.podichervu\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\saianusha.podichervu\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\saianusha.podichervu\.m2\repository\org\webjars\npm\utf-8-validate\1.2.1\utf-8-validate-1.2.1.jar;C:\Users\saianusha.podichervu\.m2\repository\org\webjars\npm\bindings\1.2.1\bindings-1.2.1.jar;C:\Users\saianusha.podichervu\.m2\repository\org\webjars\npm\nan\2.14.0\nan-2.14.0.jar;C:\Users\saianusha.podichervu\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\saianusha.podichervu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\saianusha.podichervu\.m2\repository\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;C:\Users\saianusha.podichervu\.m2\repository\org\apache\poi\poi\3.11\poi-3.11.jar;C:\Users\saianusha.podichervu\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\saianusha.podichervu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.11\poi-ooxml-schemas-3.11.jar;C:\Users\saianusha.podichervu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\saianusha.podichervu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\saianusha.podichervu\AppData\Local\Temp\surefire10802497342077873890\surefirebooter207039612348454226.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\saianusha.podichervu\AppData\Local\Temp\surefire18081034211066945631\surefirebooter9383194775829412464.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.1+12"/>
@@ -58,9 +58,29 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="searching_Bus" classname="com.yatra.testscripts.FillPassengerDetails" time="26.509"/>
-  <testcase name="selecting_Bus" classname="com.yatra.testscripts.FillPassengerDetails" time="3.701"/>
-  <testcase name="booking_Bus" classname="com.yatra.testscripts.FillPassengerDetails" time="5.973"/>
-  <testcase name="signingToBookTicket" classname="com.yatra.testscripts.FillPassengerDetails" time="11.278"/>
-  <testcase name="fillingTravellerDetails" classname="com.yatra.testscripts.FillPassengerDetails" time="4.757"/>
+  <testcase name="searching_Bus" classname="com.yatra.testscripts.FillPassengerDetails" time="24.451"/>
+  <testcase name="selecting_Bus" classname="com.yatra.testscripts.FillPassengerDetails" time="3.741"/>
+  <testcase name="booking_Bus" classname="com.yatra.testscripts.FillPassengerDetails" time="21.972">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;onwards-total-fare&apos;]&quot;}&#10;  (Session info: chrome=76.0.3809.132)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.53.239&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e83f0af16fbda6d4cf428989a8da5424&#10;*** Element info: {Using=xpath, value=//span[@id=&apos;onwards-total-fare&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='onwards-total-fare']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-083', ip: '55.55.53.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e83f0af16fbda6d4cf428989a8da5424
+*** Element info: {Using=xpath, value=//span[@id='onwards-total-fare']}
+</failure>
+    <system-out><![CDATA[09-13-2019 19:00:23 LogReports.java INFO  [main] utils.LogReports 20 - Completed seats booking
+09-13-2019 19:00:24 LogReports.java INFO  [main] utils.LogReports 20 - entered bording point
+09-13-2019 19:00:25 LogReports.java INFO  [main] utils.LogReports 20 - Passed : validatingBusName: Actual data : DLT BUS   Expected :DLT BUS
+09-13-2019 19:00:25 LogReports.java INFO  [main] utils.LogReports 20 - Passed : validatingBusType: Actual data : A-C Sleeper (2+1)   Expected :A-C Sleeper (2+1)
+09-13-2019 19:00:25 LogReports.java INFO  [main] utils.LogReports 20 - Passed : validatingSeatNumbers: Actual data : L16, L18, L17   Expected :L16, L18, L17
+09-13-2019 19:00:30 LogReports.java INFO  [main] utils.LogReports 20 - Passed : validateBoardingPoint: Actual data : Nampally   Expected :Nampally
+09-13-2019 19:00:30 LogReports.java INFO  [main] utils.LogReports 20 - failed : validateBordingPointAddress: Actual data : Below Nampally Metro Station.   Expected : Below Nampally Metro Station.
+]]></system-out>
+  </testcase>
+  <testcase name="signingToBookTicket" classname="com.yatra.testscripts.FillPassengerDetails" time="19.938"/>
+  <testcase name="fillingTravellerDetails" classname="com.yatra.testscripts.FillPassengerDetails" time="6.474"/>
 </testsuite>

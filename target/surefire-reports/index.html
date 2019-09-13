@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="booking_Bus">booking_Bus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="booking_Bus">booking_Bus</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="fillingTravellerDetails">fillingTravellerDetails</a> <!-- method navigator-link -->
@@ -137,9 +146,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.yatra.testscripts.FillPassengerDetails</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -148,8 +157,39 @@
                   <a name="booking_Bus">
                   </a> <!-- booking_Bus -->
                   <span class="method-name">booking_Bus</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;onwards-total-fare&apos;]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.53.239&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e83f0af16fbda6d4cf428989a8da5424
+*** Element info: {Using=xpath, value=//span[@id=&apos;onwards-total-fare&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.yatra.validation.ValidateBusDetails.validatingTotalFare(ValidateBusDetails.java:46)
+	at com.yatra.testscripts.BookaBus.booking_Bus(BookaBus.java:30)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yatra.testscripts.FillPassengerDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="fillingTravellerDetails">
@@ -236,28 +276,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searching_Bus')
 data.setCell(0, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(0, 3, 26510);
+data.setCell(0, 3, 24451);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'signingToBookTicket')
+data.setCell(1, 1, 'booking_Bus')
 data.setCell(1, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(1, 3, 11279);
+data.setCell(1, 3, 21956);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'booking_Bus')
+data.setCell(2, 1, 'signingToBookTicket')
 data.setCell(2, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(2, 3, 5974);
+data.setCell(2, 3, 19938);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'fillingTravellerDetails')
 data.setCell(3, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(3, 3, 4757);
+data.setCell(3, 3, 6470);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'selecting_Bus')
 data.setCell(4, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(4, 3, 3699);
+data.setCell(4, 3, 3741);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -290,23 +330,25 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">searching_Bus</span>
-                <span class="method-start">18100 ms</span>
+                <span class="method-start">18815 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selecting_Bus</span>
-                <span class="method-start">44610 ms</span>
+                <span class="method-start">43270 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">booking_Bus</span>
-                <span class="method-start">48310 ms</span>
+                <span class="method-start">47011 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">signingToBookTicket</span>
-                <span class="method-start">54284 ms</span>
+                <span class="method-start">68983 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fillingTravellerDetails</span>
-                <span class="method-start">65563 ms</span>
+                <span class="method-start">88925 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

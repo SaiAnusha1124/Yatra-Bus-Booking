@@ -14,19 +14,18 @@ public class BookaBus extends SelectBus {
 		PageActions.clickOnElement(driver, properties.getProperty("clickSecondBusSeat"));
 		PageActions.clickOnElement(driver, properties.getProperty("clickThirdBusSeat"));
 		log.info("Completed seats booking");
+		ValidateBusDetails.validatingBusName();
+		ValidateBusDetails.validatingBusType();
 		PageActions.clickOnElement(driver, properties.getProperty("clickBordingPoint"));
 		PageActions.clickOnElement(driver, properties.getProperty("clickBordingPointAddress"));
 		log.info("entered bording point");
+		ValidateBusDetails.validatingSeatsNumber();
+		ValidateBusDetails.validatingTotalFare();
 		PageActions.clickOnElement(driver, properties.getProperty("clickContinue"));
 		/*
 		 * calling method
 		 * for validate busdetails
-		 */
-		ValidateBusDetails.validatingBusName();
-		ValidateBusDetails.validatingBusType();
-		ValidateBusDetails.validatingSeatsNumber();
-		ValidateBusDetails.validatingTotalFare();
-		ValidateBusDetails.validatingBordingPoint();
-		ValidateBusDetails.validatingBordingPointAddress();
+		 */		
+		
 	}
 }

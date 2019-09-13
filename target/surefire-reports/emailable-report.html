@@ -9,11 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">70,320</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">95,399</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.yatra.testscripts.FillPassengerDetails</td><td><a href="#m0">booking_Bus</a></td><td rowspan="1">1568366358201</td><td rowspan="1">5974</td></tr><tr class="passedeven"><td><a href="#m1">fillingTravellerDetails</a></td><td rowspan="1">1568366375454</td><td rowspan="1">4757</td></tr><tr class="passedeven"><td><a href="#m2">searching_Bus</a></td><td rowspan="1">1568366327991</td><td rowspan="1">26510</td></tr><tr class="passedeven"><td><a href="#m3">selecting_Bus</a></td><td rowspan="1">1568366354501</td><td rowspan="1">3699</td></tr><tr class="passedeven"><td><a href="#m4">signingToBookTicket</a></td><td rowspan="1">1568366364175</td><td rowspan="1">11279</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.yatra.testscripts.FillPassengerDetails</td><td><a href="#m0">booking_Bus</a></td><td rowspan="1">1568381418529</td><td rowspan="1">21956</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.yatra.testscripts.FillPassengerDetails</td><td><a href="#m1">fillingTravellerDetails</a></td><td rowspan="1">1568381460443</td><td rowspan="1">6470</td></tr><tr class="passedeven"><td><a href="#m2">searching_Bus</a></td><td rowspan="1">1568381390333</td><td rowspan="1">24451</td></tr><tr class="passedeven"><td><a href="#m3">selecting_Bus</a></td><td rowspan="1">1568381414788</td><td rowspan="1">3741</td></tr><tr class="passedeven"><td><a href="#m4">signingToBookTicket</a></td><td rowspan="1">1568381440501</td><td rowspan="1">19938</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.yatra.testscripts.FillPassengerDetails#booking_Bus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.yatra.testscripts.FillPassengerDetails#booking_Bus</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;onwards-total-fare&apos;]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.53.239&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e83f0af16fbda6d4cf428989a8da5424
+*** Element info: {Using=xpath, value=//span[@id=&apos;onwards-total-fare&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.yatra.validation.ValidateBusDetails.validatingTotalFare(ValidateBusDetails.java:46)
+	at com.yatra.testscripts.BookaBus.booking_Bus(BookaBus.java:30)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.yatra.testscripts.FillPassengerDetails#fillingTravellerDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.yatra.testscripts.FillPassengerDetails#searching_Bus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.yatra.testscripts.FillPassengerDetails#selecting_Bus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

@@ -12,10 +12,10 @@ public class ValidateResult {
 			 * printing actual and expected values
 			 */
 			Assert.assertEquals(actual, expected);
-			report.info("Passed : " + message + ": " + "Actual data : " + actual + "   " + "Expected :" + expected);
+			report.info("Passed : " + message + " : " + " Actual data : " + actual + " Expected data : " + expected);
 			return true;
 		} catch (AssertionError assertionError) {
-			report.info("failed : " + message + ": " + "Actual data : " + actual + "   " + "Expected :" + expected);
+			report.info("failed : " + message + " : " + " Actual data : " + actual + " Expected data : " + expected);
 			return false;
 		}
 	}

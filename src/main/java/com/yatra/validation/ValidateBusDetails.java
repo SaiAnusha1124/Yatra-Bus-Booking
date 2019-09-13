@@ -20,7 +20,7 @@ public class ValidateBusDetails extends TestBase {
 	static String expectedseatnumbers = "L16, L18, L17";
 	static String expectedtotalfare = "6,296";
 	static String expectedbordingpoint = "Nampally";
-	static String expectedbordingpointaddress = " Below Nampally Metro Station.";
+	static String expectedbordingpointaddress =  "Below Nampally Metro Station.";
 	
 	public static void validatingBusName() throws Exception {
 		/*
