@@ -1,60 +1,58 @@
 package com.yatra.testscripts;
 
 import org.testng.annotations.Test;
-
+import com.yatra.helpers.ExcelRead;
 import com.yatra.pageactions.PageActions;
+import com.yatra.utils.LogReports;
 
 public class FillPassengerDetails extends SignintoBookBus {
+	LogReports log = new LogReports();
+
 	@Test(priority = 5)
-	public void fillingTravellerDetails() {
-		xpath = properties.getProperty("clickFirstPassengerTitle");
-		PageActions.clickOnElement(driver, xpath);
-		PageActions.sendKeys(driver, xpath, "Mr");
-		PageActions.performActionEnter(driver);
+	public void fillingTravellerDetails() throws Exception {
+		/*
+		 * read and get data from excelsheet
+		 */
+		String[][] userdata = ExcelRead.getData(".\\src\\test\\resources\\testdata\\inputs-yatrabusbooking.xlsx");
+		/*
+		 * Entering all passengersdetails
+		 */
+		PageActions.clickOnElement(driver, properties.getProperty("clickFirstPassengerTitle"));
+		PageActions.sendKeys(driver, properties.getProperty("clickFirstPassengerTitle"), "Mr");
+		PageActions.performActionEnter(driver, properties.getProperty("clickFirstPassengerTitle"));
 
+		PageActions.clickOnElement(driver, properties.getProperty("enterFPName"));
+		PageActions.sendKeys(driver, properties.getProperty("enterFPName"), userdata[1][4]);
+		PageActions.performActionEnter(driver, properties.getProperty("enterFPName"));
 
-		xpath = properties.getProperty("enterFPName");
-		PageActions.clickOnElement(driver, xpath);
-		PageActions.sendKeys(driver, xpath, "Bunny");
-		PageActions.performActionEnter(driver);
+		PageActions.clickOnElement(driver, properties.getProperty("clickFPAge"));
+		PageActions.sendKeys(driver, properties.getProperty("clickFPAge"), "20");
+		PageActions.performActionEnter(driver, properties.getProperty("clickFPAge"));
 
-		xpath = properties.getProperty("clickFPAge");
-		PageActions.clickOnElement(driver, xpath);
-		PageActions.sendKeys(driver, xpath, "20");
-		PageActions.performActionEnter(driver);
+		PageActions.clickOnElement(driver, properties.getProperty("clickSeconfPassengerTitle"));
+		PageActions.sendKeys(driver, properties.getProperty("clickSeconfPassengerTitle"), "Mr");
+		PageActions.performActionEnter(driver, properties.getProperty("clickSeconfPassengerTitle"));
+		PageActions.clickOnElement(driver, properties.getProperty("enterSPName"));
+		PageActions.sendKeys(driver, properties.getProperty("enterSPName"), userdata[1][7]);
+		PageActions.performActionEnter(driver, properties.getProperty("enterSPName"));
 
-		xpath = properties.getProperty("clickSeconfPassengerTitle");
-		PageActions.clickOnElement(driver, xpath);
-		PageActions.sendKeys(driver, xpath, "Mr");
-		PageActions.performActionEnter(driver);
+		PageActions.clickOnElement(driver, properties.getProperty("clickSPAge"));
+		PageActions.sendKeys(driver, properties.getProperty("clickSPAge"), "20");
+		PageActions.performActionEnter(driver, properties.getProperty("clickSPAge"));
 
-		xpath = properties.getProperty("enterSPName");
-		PageActions.clickOnElement(driver, xpath);
-		PageActions.sendKeys(driver, xpath, "Pavan");
-		PageActions.performActionEnter(driver);
+		PageActions.clickOnElement(driver, properties.getProperty("clickThirdPassengerTitle"));
+		PageActions.sendKeys(driver, properties.getProperty("clickThirdPassengerTitle"), "Mrs");
+		PageActions.performActionEnter(driver, properties.getProperty("clickThirdPassengerTitle"));
 
-		xpath = properties.getProperty("clickSPAge");
-		PageActions.clickOnElement(driver, xpath);
-		PageActions.sendKeys(driver, xpath, "20");
-		PageActions.performActionEnter(driver);
+		PageActions.clickOnElement(driver, properties.getProperty("enterTPName"));
+		PageActions.sendKeys(driver, properties.getProperty("enterTPName"), userdata[1][10]);
+		PageActions.performActionEnter(driver, properties.getProperty("enterTPName"));
 
-		xpath = properties.getProperty("clickThirdPassengerTitle");
-		PageActions.clickOnElement(driver, xpath);
-		PageActions.sendKeys(driver, xpath, "Mrs");
-		PageActions.performActionEnter(driver);
-
-		xpath = properties.getProperty("enterTPName");
-		PageActions.clickOnElement(driver, xpath);
-		PageActions.sendKeys(driver, xpath, "Anu");
-		PageActions.performActionEnter(driver);
-
-		xpath = properties.getProperty("clickTPAge");
-		PageActions.clickOnElement(driver, xpath);
-		PageActions.sendKeys(driver, xpath, "22");
-		PageActions.performActionEnter(driver);
-		
-		xpath = properties.getProperty("continueToPaymentPage");
-		PageActions.clickOnElement(driver, xpath);
+		PageActions.clickOnElement(driver, properties.getProperty("clickTPAge"));
+		PageActions.sendKeys(driver, properties.getProperty("clickTPAge"), "22");
+		PageActions.performActionEnter(driver, properties.getProperty("clickTPAge"));
+		log.info("Entered all passenger details");
+		PageActions.clickOnElement(driver, properties.getProperty("continueToPaymentPage"));
 
 	}
 

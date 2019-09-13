@@ -13,12 +13,10 @@ public class LogReports {
 	}
 
 	public void getlogger() {
-		PropertyConfigurator.configure(
-				"C:\\Users\\saianusha.podichervu\\eclipse-workspace\\Yatra-Assignment\\Resources\\log4j\\logj.properties");
+		PropertyConfigurator.configure(ConstantsFilePaths.LOG4J_FILE);
 	}
 
 	public void info(String message) {
 		log.info(message);
 	}
-
 }

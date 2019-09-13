@@ -1,7 +1,6 @@
 package com.yatra.utils;
 
 import org.testng.annotations.DataProvider;
-
 public class TestDataProviders {
 	@DataProvider(name = "testdata")
 	public Object[][] testData() 
@@ -10,7 +9,9 @@ public class TestDataProviders {
 		int sheetIndex = 0;
 		int rowCount = file.totalRowsinSheet(sheetIndex);
 		int colCount = file.totalColsinSheet(sheetIndex);
-
+		/*
+		 * printing no.of rows and coloums
+		 */
 		System.out.println("Total number of row in test data: " + rowCount);
 		System.out.println("Total number of coloum in test data: " + colCount);
 

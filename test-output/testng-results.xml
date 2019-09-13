@@ -1,51 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-11T14:32:04Z" name="Default suite" finished-at="2019-09-11T14:33:07Z" duration-ms="62644">
+  <suite started-at="2019-09-13T12:25:50Z" name="Default suite" finished-at="2019-09-13T12:26:11Z" duration-ms="20293">
     <groups>
     </groups>
-    <test started-at="2019-09-11T14:32:04Z" name="Default test" finished-at="2019-09-11T14:33:07Z" duration-ms="62644">
-      <class name="com.yatra.testscripts.FillPassengerDetails">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.yatra.testscripts.FillPassengerDetails@1fe20588]" started-at="2019-09-11T14:32:04Z" name="initializeBrowser" finished-at="2019-09-11T14:32:21Z" duration-ms="17208" status="PASS">
+    <test started-at="2019-09-13T12:25:50Z" name="Default test" finished-at="2019-09-13T12:26:11Z" duration-ms="20293">
+      <class name="com.yatra.testscripts.SearchForBus">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.yatra.testscripts.SearchForBus@2ef3eef9]" started-at="2019-09-13T12:25:51Z" name="initializeBrowser" finished-at="2019-09-13T12:26:08Z" duration-ms="17907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="searching_Bus()[pri:1, instance:com.yatra.testscripts.FillPassengerDetails@1fe20588]" started-at="2019-09-11T14:32:21Z" name="searching_Bus" finished-at="2019-09-11T14:32:48Z" duration-ms="26893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searching_Bus -->
-        <test-method signature="selecting_Bus()[pri:2, instance:com.yatra.testscripts.FillPassengerDetails@1fe20588]" started-at="2019-09-11T14:32:48Z" name="selecting_Bus" finished-at="2019-09-11T14:32:52Z" duration-ms="3286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selecting_Bus -->
-        <test-method signature="booking_Bus()[pri:3, instance:com.yatra.testscripts.FillPassengerDetails@1fe20588]" started-at="2019-09-11T14:32:52Z" name="booking_Bus" finished-at="2019-09-11T14:32:57Z" duration-ms="5767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- booking_Bus -->
-        <test-method signature="signingToBookTicket()[pri:4, instance:com.yatra.testscripts.FillPassengerDetails@1fe20588]" started-at="2019-09-11T14:32:57Z" name="signingToBookTicket" finished-at="2019-09-11T14:33:06Z" duration-ms="9170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signingToBookTicket -->
-        <test-method signature="fillingTravellerDetails()[pri:5, instance:com.yatra.testscripts.FillPassengerDetails@1fe20588]" started-at="2019-09-11T14:33:06Z" name="fillingTravellerDetails" finished-at="2019-09-11T14:33:07Z" duration-ms="264" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method signature="searching_Bus()[pri:1, instance:com.yatra.testscripts.SearchForBus@2ef3eef9]" started-at="2019-09-13T12:26:08Z" name="searching_Bus" finished-at="2019-09-13T12:26:11Z" duration-ms="2332" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element not interactable
+              <![CDATA[element click intercepted: Element <input data-role="none" readonly="readonly" type="text" autocomplete="false" name="bus_depart_date" placeholder=" " id="BE_bus_depart_date" class="custom-date-input BE_bus_depart_date"> is not clickable at point (269, 285). Other element would receive the click: <div class="opaque-layer abs show-arrival">...</div>
   (Session info: chrome=76.0.3809.132)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-083', ip: '55.55.53.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b1aa8ef7640e35d1e06113360e1b51e5]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5b4bf748f9e068428251baac4cb6c617]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input data-role="none" readonly="readonly" type="text" autocomplete="false" name="bus_depart_date" placeholder=" " id="BE_bus_depart_date" class="custom-date-input BE_bus_depart_date"> is not clickable at point (269, 285). Other element would receive the click: <div class="opaque-layer abs show-arrival">...</div>
   (Session info: chrome=76.0.3809.132)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-083', ip: '55.55.53.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b1aa8ef7640e35d1e06113360e1b51e5
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5b4bf748f9e068428251baac4cb6c617
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -58,9 +42,9 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-at com.yatra.pageactions.PageActions.sendKeys(PageActions.java:30)
-at com.yatra.testscripts.FillPassengerDetails.fillingTravellerDetails(FillPassengerDetails.java:12)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.yatra.pageactions.PageActions.clickOnElement(PageActions.java:23)
+at com.yatra.testscripts.SearchForBus.searching_Bus(SearchForBus.java:38)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -88,11 +72,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillingTravellerDetails -->
-      </class> <!-- com.yatra.testscripts.FillPassengerDetails -->
+        </test-method> <!-- searching_Bus -->
+      </class> <!-- com.yatra.testscripts.SearchForBus -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

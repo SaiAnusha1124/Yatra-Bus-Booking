@@ -14,18 +14,15 @@ public class ConstantsFilePaths {
 	public final static String IE_Home = homeDir + "lib" + File.separator;
 	public final static String IE_FILE = IE_Home + "IEDriverServer.exe";
 
-	public final static String config_Home = homeDir + "Resources" + File.separator + "testdata" + File.separator;
+	public final static String config_Home = homeDir +"src\\test\\resources"+ File.separator +"config"+ File.separator;
 	public final static String CONFIG_FILE = config_Home + "config.properties";
 
-	public final static String locators_Home = homeDir + "Resources" + File.separator + "locators" + File.separator;
+	public final static String locators_Home = homeDir + "src\\test\\resources" + File.separator + "locators" + File.separator;
 	public final static String LOCATORS_FILE = locators_Home + "locators.properties";
 
-	public final static String log4j_Home = homeDir + "Resources" + File.separator + "log4j" + File.separator;
+	public final static String log4j_Home = homeDir + "src\\test\\resources" + File.separator + "log4j" + File.separator;
 	public final static String LOG4J_FILE = log4j_Home + "log4j.properties";
 
-	public final static String testData_Home = homeDir + "Resources" + File.separator + "testdata" + File.separator;
-	public final static String TESTDATA_FILE = testData_Home + "Excelsheet.xlsx";
-
-	public final static String roundTripConfig_Home = homeDir + "Resources" + File.separator + "testdata"
-			+ File.separator;
+	public final static String testData_Home = homeDir + "src\\test\\resources" + File.separator + "testdata" + File.separator;
+	public final static String TESTDATA_FILE = testData_Home + "inputs-yatrabusbooking.xlsx";
 }

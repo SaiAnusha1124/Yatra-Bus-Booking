@@ -9,17 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">62,644</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">20,293</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.yatra.testscripts.FillPassengerDetails</td><td><a href="#m0">fillingTravellerDetails</a></td><td rowspan="1">1568212386999</td><td rowspan="1">264</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.yatra.testscripts.FillPassengerDetails</td><td><a href="#m1">booking_Bus</a></td><td rowspan="1">1568212372058</td><td rowspan="1">5767</td></tr><tr class="passedeven"><td><a href="#m2">searching_Bus</a></td><td rowspan="1">1568212341871</td><td rowspan="1">26893</td></tr><tr class="passedeven"><td><a href="#m3">selecting_Bus</a></td><td rowspan="1">1568212368768</td><td rowspan="1">3286</td></tr><tr class="passedeven"><td><a href="#m4">signingToBookTicket</a></td><td rowspan="1">1568212377829</td><td rowspan="1">9170</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.yatra.testscripts.SearchForBus</td><td><a href="#m0">searching_Bus</a></td><td rowspan="1">1568377568938</td><td rowspan="1">2332</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.yatra.testscripts.FillPassengerDetails#fillingTravellerDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+<h2>Default test</h2><h3 id="m0">com.yatra.testscripts.SearchForBus#searching_Bus</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input data-role=&quot;none&quot; readonly=&quot;readonly&quot; type=&quot;text&quot; autocomplete=&quot;false&quot; name=&quot;bus_depart_date&quot; placeholder=&quot; &quot; id=&quot;BE_bus_depart_date&quot; class=&quot;custom-date-input BE_bus_depart_date&quot;&gt; is not clickable at point (269, 285). Other element would receive the click: &lt;div class=&quot;opaque-layer abs show-arrival&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=76.0.3809.132)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.53.239&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b1aa8ef7640e35d1e06113360e1b51e5
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\SAIANU~1.POD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5b4bf748f9e068428251baac4cb6c617
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -32,9 +32,9 @@ Session ID: b1aa8ef7640e35d1e06113360e1b51e5
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-	at com.yatra.pageactions.PageActions.sendKeys(PageActions.java:30)
-	at com.yatra.testscripts.FillPassengerDetails.fillingTravellerDetails(FillPassengerDetails.java:12)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.yatra.pageactions.PageActions.clickOnElement(PageActions.java:23)
+	at com.yatra.testscripts.SearchForBus.searching_Bus(SearchForBus.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,9 +61,5 @@ Session ID: b1aa8ef7640e35d1e06113360e1b51e5
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.yatra.testscripts.FillPassengerDetails#booking_Bus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.yatra.testscripts.FillPassengerDetails#searching_Bus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.yatra.testscripts.FillPassengerDetails#selecting_Bus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.yatra.testscripts.FillPassengerDetails#signingToBookTicket</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
