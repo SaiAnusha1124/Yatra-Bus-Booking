@@ -551,3 +551,488 @@
 2019-09-13 19:41:42,193  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
 2019-09-13 19:41:47,974  INFO [main] LogReports:20 - Entered all passenger details
 2019-09-13 19:41:48,175  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 10:29:47,879  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 10:29:54,327  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 10:29:55,000  INFO [main] LogReports:20 - clicked date
+2019-09-16 10:29:58,109  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 10:29:58,197  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 10:29:58,296  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 10:30:10,638  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 10:30:14,495  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 10:30:14,639  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 10:30:14,751  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 10:30:15,364  INFO [main] LogReports:20 - entered bording point
+2019-09-16 10:30:15,531  INFO [main] LogReports:20 - failed : validatingSeatNumbers :  Actual data : L18, L17 Expected data : L16, L18, L17
+2019-09-16 10:30:15,646  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 3,358 Expected data : 6,296
+2019-09-16 10:30:25,804  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 10:30:28,901  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 10:30:29,000  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 10:30:29,061  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 10:30:29,880  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 10:32:18,468  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 10:32:24,990  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 10:32:25,769  INFO [main] LogReports:20 - clicked date
+2019-09-16 10:32:34,368  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 10:32:34,496  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 10:32:34,585  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 10:32:38,072  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 10:35:43,049  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 10:35:49,481  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 10:35:50,233  INFO [main] LogReports:20 - clicked date
+2019-09-16 10:35:58,312  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 10:35:58,405  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 10:35:58,504  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 10:36:01,240  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 10:36:04,636  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 10:36:04,780  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 10:36:04,877  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 10:36:05,547  INFO [main] LogReports:20 - entered bording point
+2019-09-16 10:36:05,694  INFO [main] LogReports:20 - failed : validatingSeatNumbers :  Actual data : L18, L17 Expected data : L16, L18, L17
+2019-09-16 10:36:05,781  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 3,358 Expected data : 6,296
+2019-09-16 10:36:16,026  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 10:36:19,126  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 10:36:19,221  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 10:36:19,285  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 10:36:20,077  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 10:37:35,500  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 10:37:41,920  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 10:37:42,644  INFO [main] LogReports:20 - clicked date
+2019-09-16 10:37:50,936  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 10:37:51,065  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 10:37:51,180  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 10:37:53,861  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 10:45:57,826  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 10:46:04,343  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 10:46:05,106  INFO [main] LogReports:20 - clicked date
+2019-09-16 10:46:15,076  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 10:46:15,190  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 10:46:15,293  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 10:46:18,312  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 10:48:43,056  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 10:48:49,517  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 10:48:50,267  INFO [main] LogReports:20 - clicked date
+2019-09-16 10:48:57,804  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 10:48:57,891  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 10:48:57,992  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 10:49:01,112  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 10:51:24,365  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 10:51:30,788  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 10:51:31,463  INFO [main] LogReports:20 - clicked date
+2019-09-16 10:51:41,344  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 10:51:41,444  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 10:51:41,527  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 10:51:44,275  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 10:53:49,732  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 10:53:56,253  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 10:53:57,203  INFO [main] LogReports:20 - clicked date
+2019-09-16 10:54:08,596  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 10:54:08,727  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 10:54:08,850  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 10:54:12,776  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 10:54:17,249  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 10:54:17,471  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 10:54:17,698  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 10:54:18,711  INFO [main] LogReports:20 - entered bording point
+2019-09-16 10:54:18,943  INFO [main] LogReports:20 - failed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L16, L18, L17
+2019-09-16 10:54:19,097  INFO [main] LogReports:20 - Passed : validatingTotalFare :  Actual data : 6,296 Expected data : 6,296
+2019-09-16 10:56:29,891  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 10:56:36,323  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 10:56:37,017  INFO [main] LogReports:20 - clicked date
+2019-09-16 10:56:44,995  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 10:56:45,082  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 10:56:45,187  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 10:56:48,125  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 10:56:51,680  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 10:56:51,828  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 10:56:51,934  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 10:56:52,536  INFO [main] LogReports:20 - entered bording point
+2019-09-16 10:56:52,662  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 10:56:52,802  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 5,037 Expected data : 6,297
+2019-09-16 10:57:03,101  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 10:57:06,208  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 10:57:06,306  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 10:57:06,365  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 10:57:07,151  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 10:57:12,688  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 10:57:12,836  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 10:58:25,509  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 10:58:31,930  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 10:58:32,664  INFO [main] LogReports:20 - clicked date
+2019-09-16 10:58:41,066  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 10:58:41,170  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 10:58:41,257  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 10:58:43,908  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 10:58:47,147  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 10:58:47,295  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 10:58:47,438  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 10:58:48,034  INFO [main] LogReports:20 - entered bording point
+2019-09-16 10:58:48,156  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 10:58:48,287  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 4,407 Expected data : 6,297
+2019-09-16 10:58:58,528  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 10:59:01,626  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 10:59:01,744  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 10:59:01,810  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 10:59:02,626  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 10:59:08,194  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 10:59:08,395  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 11:07:27,914  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:07:34,527  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:07:35,415  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:07:47,738  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:07:47,915  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:07:48,035  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:07:52,917  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 11:07:56,869  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 11:07:57,075  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 11:07:57,238  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 11:07:58,327  INFO [main] LogReports:20 - entered bording point
+2019-09-16 11:07:58,515  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 11:07:58,662  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 4,197 Expected data : 6,296
+2019-09-16 11:08:09,397  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 11:08:12,469  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 11:08:12,549  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 11:08:12,631  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 11:08:13,710  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 11:08:21,270  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 11:08:21,573  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 11:31:06,951  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:31:13,379  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:31:14,094  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:31:21,865  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:31:22,019  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:31:22,156  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:32:34,062  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:32:40,528  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:32:41,241  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:32:49,882  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:32:50,007  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:32:50,100  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:34:06,665  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:34:13,093  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:34:13,823  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:34:21,789  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:34:21,881  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:34:21,977  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:34:24,742  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 11:34:28,702  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 11:34:28,865  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 11:34:28,984  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 11:34:29,611  INFO [main] LogReports:20 - entered bording point
+2019-09-16 11:34:29,743  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 11:34:29,883  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 5,037 Expected data : 6,296
+2019-09-16 11:35:14,709  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:35:21,115  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:35:21,865  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:35:29,936  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:35:30,060  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:35:30,185  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:35:33,871  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 11:35:37,170  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 11:35:37,317  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 11:35:37,432  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 11:35:38,040  INFO [main] LogReports:20 - entered bording point
+2019-09-16 11:35:38,165  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 11:35:38,327  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 5,037 Expected data : 6,296
+2019-09-16 11:35:48,528  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 11:35:51,616  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 11:35:51,703  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 11:35:51,762  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 11:35:52,646  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 11:37:26,099  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:37:32,511  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:37:33,282  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:37:41,282  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:37:41,434  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:37:41,520  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:38:50,035  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:38:56,457  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:38:57,190  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:39:05,018  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:39:05,164  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:39:05,275  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:39:08,076  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 11:39:11,864  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 11:39:12,020  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 11:39:12,117  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 11:39:12,748  INFO [main] LogReports:20 - entered bording point
+2019-09-16 11:39:12,879  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 11:39:12,988  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 4,407 Expected data : 6,296
+2019-09-16 11:39:23,252  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 11:39:26,344  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 11:39:26,442  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 11:39:26,503  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 11:39:27,295  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 11:39:32,740  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 11:39:32,925  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 11:41:17,029  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:41:23,597  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:41:24,346  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:41:33,110  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:41:33,266  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:41:33,418  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:41:37,135  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 11:41:41,179  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 11:41:41,388  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 11:41:41,599  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 11:41:42,431  INFO [main] LogReports:20 - entered bording point
+2019-09-16 11:41:42,559  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 11:41:42,698  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 5,037 Expected data : 4,407
+2019-09-16 11:41:53,110  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 11:41:56,190  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 11:41:56,256  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 11:41:56,324  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 11:41:57,228  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 11:42:03,320  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 11:42:03,538  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 11:45:19,000  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:45:25,511  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:45:26,400  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:45:36,797  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:45:36,944  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:45:37,072  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:45:42,133  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 11:45:46,787  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 11:45:47,014  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 11:45:47,292  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 11:45:48,585  INFO [main] LogReports:20 - entered bording point
+2019-09-16 11:45:48,856  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 11:45:49,144  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 6,296 Expected data : 5,037
+2019-09-16 11:46:00,517  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 11:46:03,649  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 11:46:03,740  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 11:46:03,860  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 11:46:05,403  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 11:46:12,751  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 11:46:12,937  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 11:47:25,946  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:47:32,520  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:47:33,258  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:47:42,538  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:47:42,693  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:47:42,809  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:47:46,538  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 11:47:51,104  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 11:47:51,315  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 11:47:51,481  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 11:47:52,557  INFO [main] LogReports:20 - entered bording point
+2019-09-16 11:47:52,732  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 11:47:52,912  INFO [main] LogReports:20 - Passed : validatingTotalFare :  Actual data : 6,296 Expected data : 6,296
+2019-09-16 11:48:03,995  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 11:48:07,121  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 11:48:07,279  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 11:48:07,411  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 11:48:08,291  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 11:48:15,166  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 11:48:15,359  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 11:49:24,503  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 11:49:31,021  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 11:49:31,699  INFO [main] LogReports:20 - clicked date
+2019-09-16 11:49:41,847  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 11:49:41,997  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 11:49:42,129  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 11:49:45,966  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 11:49:49,790  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 11:49:49,969  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 11:49:50,104  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 11:49:50,993  INFO [main] LogReports:20 - entered bording point
+2019-09-16 11:49:51,149  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 11:49:51,287  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 5,666 Expected data : 6,296
+2019-09-16 11:50:02,163  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 11:50:05,332  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 11:50:05,434  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 11:50:05,552  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 11:50:06,866  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 11:50:14,387  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 11:50:14,566  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 12:15:40,356  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 12:15:46,970  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 12:15:47,694  INFO [main] LogReports:20 - clicked date
+2019-09-16 12:15:56,973  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 12:15:57,067  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 12:15:57,179  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 12:16:01,644  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 12:16:06,400  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 12:16:06,590  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 12:16:06,794  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 12:16:07,888  INFO [main] LogReports:20 - entered bording point
+2019-09-16 12:16:08,090  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 12:16:08,210  INFO [main] LogReports:20 - Passed : validatingTotalFare :  Actual data : 6,296 Expected data : 6,296
+2019-09-16 12:16:19,106  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 12:16:22,246  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 12:16:22,397  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 12:16:22,481  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 12:16:23,489  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 12:16:30,477  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 12:16:30,650  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 12:48:47,899  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 12:48:54,325  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 12:48:55,028  INFO [main] LogReports:20 - clicked date
+2019-09-16 12:48:57,821  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 12:48:57,914  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 12:48:57,999  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 12:49:11,051  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 12:49:15,342  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 12:49:15,507  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 12:49:15,660  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 12:49:16,494  INFO [main] LogReports:20 - entered bording point
+2019-09-16 12:49:16,618  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 12:49:16,779  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 5,037 Expected data : 6,296
+2019-09-16 12:49:27,111  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 12:49:30,223  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 12:49:30,287  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 12:49:30,348  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 12:49:31,124  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 12:49:36,483  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 12:49:36,657  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 12:50:34,119  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 12:50:40,538  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 12:50:41,255  INFO [main] LogReports:20 - clicked date
+2019-09-16 12:50:49,243  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 12:50:49,380  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 12:50:49,481  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 12:51:56,568  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 12:52:02,982  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 12:52:03,690  INFO [main] LogReports:20 - clicked date
+2019-09-16 12:52:11,550  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 12:52:11,652  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 12:52:11,768  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 12:52:14,315  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 12:52:17,750  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 12:52:17,899  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 12:52:18,002  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 12:52:18,638  INFO [main] LogReports:20 - entered bording point
+2019-09-16 12:52:18,762  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 12:52:18,869  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 4,407 Expected data : 6,296
+2019-09-16 12:52:29,085  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 12:52:32,165  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 12:52:32,236  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 12:52:32,294  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 12:52:33,312  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 12:52:39,560  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 12:52:39,715  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 14:17:52,808  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 14:17:59,247  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 14:17:59,931  INFO [main] LogReports:20 - clicked date
+2019-09-16 14:18:07,812  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 14:18:07,898  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 14:18:07,998  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 14:18:10,804  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 14:18:14,142  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 14:18:14,311  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 14:18:14,476  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 14:18:15,081  INFO [main] LogReports:20 - entered bording point
+2019-09-16 14:18:15,235  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 14:18:15,339  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 5,037 Expected data : 6,296
+2019-09-16 14:18:25,786  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 14:18:28,900  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 14:18:28,994  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 14:18:29,057  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 14:18:29,841  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 14:18:35,430  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 14:18:35,579  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 14:31:34,187  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 14:31:40,644  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 14:31:41,465  INFO [main] LogReports:20 - clicked date
+2019-09-16 14:31:47,832  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 14:31:47,956  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 14:31:48,046  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 14:31:50,886  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 14:31:54,481  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 14:31:54,549  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 14:31:54,609  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 14:31:55,289  INFO [main] LogReports:20 - entered bording point
+2019-09-16 14:31:55,351  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 14:31:55,430  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 5,666 Expected data : 6,296
+2019-09-16 14:32:06,169  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 14:32:09,233  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 14:32:09,316  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 14:32:09,361  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 14:32:10,182  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 14:32:17,516  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 14:32:21,295  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 16:48:46,302  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 16:48:52,889  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 16:48:53,765  INFO [main] LogReports:20 - clicked date
+2019-09-16 16:49:03,597  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 16:49:03,786  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 16:49:03,927  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 16:52:38,235  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 16:52:44,774  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 16:52:45,591  INFO [main] LogReports:20 - clicked date
+2019-09-16 16:52:55,420  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 16:52:55,671  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 16:52:55,847  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 16:53:00,442  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 16:53:04,994  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 16:53:05,146  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 16:53:05,240  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 16:53:06,119  INFO [main] LogReports:20 - entered bording point
+2019-09-16 16:53:06,193  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 16:53:06,303  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 2,908 Expected data : 6,296
+2019-09-16 16:53:17,611  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 16:53:20,869  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 16:53:20,998  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 16:53:21,060  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 16:53:22,244  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 16:53:32,922  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 16:53:33,349  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 17:01:23,222  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 17:01:29,854  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 17:01:30,682  INFO [main] LogReports:20 - clicked date
+2019-09-16 17:01:40,206  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 17:01:40,407  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 17:01:40,564  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 17:01:44,756  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 17:01:48,868  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 17:01:48,990  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 17:01:49,088  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 17:01:49,918  INFO [main] LogReports:20 - entered bording point
+2019-09-16 17:01:50,041  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 17:01:50,119  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 2,908 Expected data : 6,296
+2019-09-16 17:02:00,756  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 17:02:04,071  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 17:02:04,199  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 17:02:04,259  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 17:02:05,163  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 17:02:14,346  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 17:02:14,737  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 18:13:02,021  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 18:13:08,544  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 18:13:09,375  INFO [main] LogReports:20 - clicked date
+2019-09-16 18:13:14,143  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 18:13:14,229  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 18:13:14,323  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 18:13:29,595  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 18:13:32,628  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 18:13:32,698  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 18:13:32,783  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 18:13:33,548  INFO [main] LogReports:20 - entered bording point
+2019-09-16 18:13:33,595  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 18:13:33,673  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 2,617 Expected data : 6,296
+2019-09-16 18:13:44,379  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 18:13:47,610  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 18:13:47,697  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 18:13:47,744  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 18:13:48,649  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 18:13:56,302  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 18:13:56,612  INFO [main] LogReports:20 - Sucessfully automated test cases
+2019-09-16 18:17:35,529  INFO [main] LogReports:20 - Clicked fromplace
+2019-09-16 18:17:42,036  INFO [main] LogReports:20 - Clicked toplace
+2019-09-16 18:17:42,901  INFO [main] LogReports:20 - clicked date
+2019-09-16 18:17:50,388  INFO [main] LogReports:20 - Passed : validatingFromPlace :  Actual data : Hyderabad Expected data : Hyderabad
+2019-09-16 18:17:50,552  INFO [main] LogReports:20 - Passed : validatingToPlace :  Actual data : Bangalore Expected data : Bangalore
+2019-09-16 18:17:50,634  INFO [main] LogReports:20 - Passed : validatingdateofjourney :  Actual data : 26/09/2019 Expected data : 26/09/2019
+2019-09-16 18:17:54,241  INFO [main] LogReports:20 - Selected bus as per requirements
+2019-09-16 18:17:57,381  INFO [main] LogReports:20 - Completed seats booking
+2019-09-16 18:17:57,471  INFO [main] LogReports:20 - Passed : validatingBusName :  Actual data : DLT BUS Expected data : DLT BUS
+2019-09-16 18:17:57,565  INFO [main] LogReports:20 - Passed : validatingBusType :  Actual data : A-C Sleeper (2+1) Expected data : A-C Sleeper (2+1)
+2019-09-16 18:17:58,382  INFO [main] LogReports:20 - entered bording point
+2019-09-16 18:17:58,419  INFO [main] LogReports:20 - Passed : validatingSeatNumbers :  Actual data : L18, L17, L5 Expected data : L18, L17, L5
+2019-09-16 18:17:58,482  INFO [main] LogReports:20 - failed : validatingTotalFare :  Actual data : 2,617 Expected data : 6,296
+2019-09-16 18:18:08,929  INFO [main] LogReports:20 - Passed : validatingStartingTime :  Actual data : 10:50 PM Expected data : 10:50 PM
+2019-09-16 18:18:11,995  INFO [main] LogReports:20 - Passed : validateEndingTime :  Actual data : 06:15 AM Expected data : 06:15 AM
+2019-09-16 18:18:12,063  INFO [main] LogReports:20 - Passed : validateBoardingPoint :  Actual data : Nampally Expected data : Nampally
+2019-09-16 18:18:12,105  INFO [main] LogReports:20 - Passed : validateBordingPointAddress :  Actual data : Below Nampally Metro Station. Expected data : Below Nampally Metro Station.
+2019-09-16 18:18:12,944  INFO [main] LogReports:20 - Entered email and phoneno for corfirmation
+2019-09-16 18:18:20,961  INFO [main] LogReports:20 - Entered all passenger details
+2019-09-16 18:18:24,507  INFO [main] LogReports:20 - Sucessfully automated test cases

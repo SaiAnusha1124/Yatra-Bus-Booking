@@ -27,25 +27,24 @@ public class SearchForBus extends TestBase {
 		Thread.sleep(3000);
 		PageActions.sendKeys(driver, properties.getProperty("clickFromPlace"), "Hyderabad");
 		Thread.sleep(3000);
-		PageActions.performActionEnter(driver,properties.getProperty("clickFromPlace"));
+		PageActions.performActionEnter(driver, properties.getProperty("clickFromPlace"));
 		log.info("Clicked fromplace");
 		PageActions.clickOnElement(driver, properties.getProperty("clickToPlace"));
 		Thread.sleep(3000);
 		PageActions.sendKeys(driver, properties.getProperty("clickToPlace"), "Bangalore");
 		Thread.sleep(3000);
-		PageActions.performActionEnter(driver,properties.getProperty("clickToPlace"));
+		PageActions.performActionEnter(driver, properties.getProperty("clickToPlace"));
 		log.info("Clicked toplace");
 		PageActions.clickOnElement(driver, properties.getProperty("clickDate"));
 		PageActions.clickOnElement(driver, properties.getProperty("clickDateValue"));
 		log.info("clicked date");
 		PageActions.clickOnElement(driver, properties.getProperty("clickSearchBuses"));
 		/*
-		 * calling method
-		 * for validate the data
+		 * calling method for validate the data
 		 */
 		ValidatePlace_Date.validatingFromPlace();
 		ValidatePlace_Date.validatingToPlace();
 		ValidatePlace_Date.validatingDateofJourney();
-		
+
 	}
 }

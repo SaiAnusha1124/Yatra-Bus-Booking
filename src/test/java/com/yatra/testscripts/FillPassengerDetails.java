@@ -17,6 +17,7 @@ public class FillPassengerDetails extends SignintoBookBus {
 		/*
 		 * Entering all passengersdetails
 		 */
+
 		PageActions.clickOnElement(driver, properties.getProperty("clickFirstPassengerTitle"));
 		PageActions.sendKeys(driver, properties.getProperty("clickFirstPassengerTitle"), "Mr");
 		PageActions.performActionEnter(driver, properties.getProperty("clickFirstPassengerTitle"));
@@ -54,8 +55,6 @@ public class FillPassengerDetails extends SignintoBookBus {
 		log.info("Entered all passenger details");
 		PageActions.clickOnElement(driver, properties.getProperty("continueToPaymentPage"));
 		log.info("Sucessfully automated test cases");
-		driver.quit();
-
+		// driver.quit();
 	}
-
 }

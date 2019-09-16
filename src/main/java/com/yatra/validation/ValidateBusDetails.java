@@ -17,7 +17,7 @@ public class ValidateBusDetails extends TestBase {
 	static String actualbordingpointaddress;
 	static String expectedbusname = "DLT BUS";
 	static String expectedbustype = "A-C Sleeper (2+1)";
-	static String expectedseatnumbers = "L16, L18, L17";
+	static String expectedseatnumbers = "L18, L17, L5";
 	static String expectedtotalfare = "6,296";
 	static String expectedbordingpoint = "Nampally";
 	static String expectedbordingpointaddress =  "Below Nampally Metro Station.";

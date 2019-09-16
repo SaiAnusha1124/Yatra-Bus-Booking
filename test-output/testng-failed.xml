@@ -5,8 +5,11 @@
     <classes>
       <class name="com.yatra.testscripts.FillPassengerDetails">
         <methods>
+          <include name="fillingTravellerDetails"/>
           <include name="booking_Bus"/>
+          <include name="selecting_Bus"/>
           <include name="initializeBrowser"/>
+          <include name="signingToBookTicket"/>
         </methods>
       </class> <!-- com.yatra.testscripts.FillPassengerDetails -->
     </classes>

@@ -4,7 +4,6 @@ import java.io.FileInputStream;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
 public class ExcelRead {
 	public static String[][] getData(String file) throws Exception {
 		FileInputStream fileInput = new FileInputStream(file);

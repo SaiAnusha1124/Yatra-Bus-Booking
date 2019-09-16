@@ -6,7 +6,6 @@ import com.yatra.helpers.ExcelRead;
 import com.yatra.pageactions.PageActions;
 import com.yatra.validation.ValidateBusDetails;
 import com.yatra.validation.ValidateTime;
-
 public class SignintoBookBus extends BookaBus {
 	// String[][] userdata;
 	@Test(priority = 4)
@@ -32,9 +31,8 @@ public class SignintoBookBus extends BookaBus {
 		PageActions.sendKeys(driver, properties.getProperty("enterPhoneNumber"), phoneNo);
 		PageActions.sendKeys(Keys.ENTER);
 		log.info("Entered email and phoneno for corfirmation");
-		PageActions.clickOnElement(driver,
-		properties.getProperty("clickBookasGuest"));
-		
+		PageActions.clickOnElement(driver, properties.getProperty("clickBookasGuest"));
+
 	}
 
 }
