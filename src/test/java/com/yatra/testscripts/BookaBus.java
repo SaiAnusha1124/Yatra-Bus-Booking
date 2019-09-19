@@ -23,9 +23,7 @@ public class BookaBus extends SelectBus {
 		ValidateBusDetails.validatingTotalFare();
 		PageActions.clickOnElement(driver, properties.getProperty("clickContinue"));
 		/*
-		 * calling method
-		 * for validate busdetails
-		 */		
-		
+		 * calling method for validate busdetails
+		 */
 	}
 }

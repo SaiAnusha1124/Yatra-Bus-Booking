@@ -2,7 +2,6 @@ package com.yatra.validation;
 
 import org.testng.Assert;
 import com.yatra.utils.LogReports;
-
 public class ValidateResult {
 	static LogReports report = new LogReports();
 

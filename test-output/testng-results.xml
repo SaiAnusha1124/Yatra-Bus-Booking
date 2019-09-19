@@ -2,35 +2,39 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-17T10:25:20Z" name="Default suite" finished-at="2019-09-17T10:26:31Z" duration-ms="71446">
+  <suite started-at="2019-09-19T05:43:16Z" name="Default suite" finished-at="2019-09-19T05:44:36Z" duration-ms="79934">
     <groups>
     </groups>
-    <test started-at="2019-09-17T10:25:20Z" name="Default test" finished-at="2019-09-17T10:26:31Z" duration-ms="71446">
+    <test started-at="2019-09-19T05:43:16Z" name="Default test" finished-at="2019-09-19T05:44:36Z" duration-ms="79934">
       <class name="com.yatra.testscripts.FillPassengerDetails">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.yatra.testscripts.FillPassengerDetails@7193666c]" started-at="2019-09-17T10:25:20Z" name="initializeBrowser" finished-at="2019-09-17T10:25:37Z" duration-ms="17329" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.yatra.testscripts.FillPassengerDetails@3835c46]" started-at="2019-09-19T05:43:16Z" name="initializeBrowser" finished-at="2019-09-19T05:43:33Z" duration-ms="17389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="searching_Bus()[pri:1, instance:com.yatra.testscripts.FillPassengerDetails@7193666c]" started-at="2019-09-17T10:25:37Z" name="searching_Bus" finished-at="2019-09-17T10:26:01Z" duration-ms="23947" status="PASS">
+        <test-method signature="searching_Bus()[pri:1, instance:com.yatra.testscripts.FillPassengerDetails@3835c46]" started-at="2019-09-19T05:43:33Z" name="searching_Bus" finished-at="2019-09-19T05:44:05Z" duration-ms="31807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searching_Bus -->
-        <test-method signature="selecting_Bus()[pri:2, instance:com.yatra.testscripts.FillPassengerDetails@7193666c]" started-at="2019-09-17T10:26:01Z" name="selecting_Bus" finished-at="2019-09-17T10:26:05Z" duration-ms="3808" status="PASS">
+        <test-method signature="selecting_Bus()[pri:2, instance:com.yatra.testscripts.FillPassengerDetails@3835c46]" started-at="2019-09-19T05:44:05Z" name="selecting_Bus" finished-at="2019-09-19T05:44:08Z" duration-ms="3103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selecting_Bus -->
-        <test-method signature="booking_Bus()[pri:3, instance:com.yatra.testscripts.FillPassengerDetails@7193666c]" started-at="2019-09-17T10:26:05Z" name="booking_Bus" finished-at="2019-09-17T10:26:11Z" duration-ms="6087" status="PASS">
+        <test-method signature="booking_Bus()[pri:3, instance:com.yatra.testscripts.FillPassengerDetails@3835c46]" started-at="2019-09-19T05:44:08Z" name="booking_Bus" finished-at="2019-09-19T05:44:13Z" duration-ms="4884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- booking_Bus -->
-        <test-method signature="signingToBookTicket()[pri:4, instance:com.yatra.testscripts.FillPassengerDetails@7193666c]" started-at="2019-09-17T10:26:11Z" name="signingToBookTicket" finished-at="2019-09-17T10:26:27Z" duration-ms="16157" status="PASS">
+        <test-method signature="signingToBookTicket()[pri:4, instance:com.yatra.testscripts.FillPassengerDetails@3835c46]" started-at="2019-09-19T05:44:13Z" name="signingToBookTicket" finished-at="2019-09-19T05:44:30Z" duration-ms="17471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signingToBookTicket -->
-        <test-method signature="fillingTravellerDetails()[pri:5, instance:com.yatra.testscripts.FillPassengerDetails@7193666c]" started-at="2019-09-17T10:26:27Z" name="fillingTravellerDetails" finished-at="2019-09-17T10:26:31Z" duration-ms="4054" status="PASS">
+        <test-method signature="fillingTravellerDetails()[pri:5, instance:com.yatra.testscripts.FillPassengerDetails@3835c46]" started-at="2019-09-19T05:44:30Z" name="fillingTravellerDetails" finished-at="2019-09-19T05:44:36Z" duration-ms="5223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillingTravellerDetails -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.yatra.testscripts.FillPassengerDetails@3835c46]" started-at="2019-09-19T05:44:36Z" name="CloseBrowser" finished-at="2019-09-19T05:44:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
       </class> <!-- com.yatra.testscripts.FillPassengerDetails -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -15,17 +15,16 @@ public class ValidateBusDetails extends TestBase {
 	static String actualtotalfare;
 	static String actualbordingpoint;
 	static String actualbordingpointaddress;
-	static String expectedbusname = "DLT BUS";
-	static String expectedbustype = "A-C Sleeper (2+1)";
-	static String expectedseatnumbers = "L18, L17, L5";
-	static String expectedtotalfare = "2,908";
-	static String expectedbordingpoint = "Nampally";
-	static String expectedbordingpointaddress =  "Below Nampally Metro Station.";
-	
+	static String expectedbusname = "Ullal Holidays";
+	static String expectedbustype = "AC Sleeper (2 + 1)";
+	static String expectedseatnumbers = "L18, L17, L13";
+	static String expectedtotalfare = "2,700";
+	static String expectedbordingpoint = "Y Junction";
+	static String expectedbordingpointaddress = "INFRONT OF SAGAR HOTEL, PH No : 7353019999 , 04066746542 , 04066336542,";
+
 	public static void validatingBusName() throws Exception {
 		/*
-		 * reading locators
-		 * from locators file
+		 * reading locators from locators file
 		 */
 		properties = ReadLocatorsFile.loadProperty(ConstantsFilePaths.LOCATORS_FILE);
 		actualbusname = driver.findElement(By.xpath(properties.getProperty("validateBusName"))).getText();
@@ -46,16 +45,17 @@ public class ValidateBusDetails extends TestBase {
 		actualtotalfare = driver.findElement(By.xpath(properties.getProperty("validateTotalFare"))).getText();
 		ValidateResult.validateData(actualtotalfare, expectedtotalfare, "validatingTotalFare");
 	}
-	
+
 	public static void validatingBordingPoint() {
 		actualbordingpoint = driver.findElement(By.xpath(properties.getProperty("validateBoardingPoint"))).getText();
 		ValidateResult.validateData(actualbordingpoint, expectedbordingpoint, "validateBoardingPoint");
 	}
-	
 
 	public static void validatingBordingPointAddress() {
-		actualbordingpointaddress = driver.findElement(By.xpath(properties.getProperty("validateBordingPointAddress"))).getText();
-		ValidateResult.validateData(actualbordingpointaddress, expectedbordingpointaddress, "validateBordingPointAddress");
+		actualbordingpointaddress = driver.findElement(By.xpath(properties.getProperty("validateBordingPointAddress")))
+				.getText();
+		ValidateResult.validateData(actualbordingpointaddress, expectedbordingpointaddress,
+				"validateBordingPointAddress");
 	}
 
 }

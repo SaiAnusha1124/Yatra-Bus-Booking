@@ -1,10 +1,10 @@
 package com.yatra.utils;
 
 import org.testng.annotations.DataProvider;
+
 public class TestDataProviders {
 	@DataProvider(name = "testdata")
-	public Object[][] testData() 
-	{
+	public Object[][] testData() {
 		ReadExcelFile file = new ReadExcelFile(ConstantsFilePaths.TESTDATA_FILE);
 		int sheetIndex = 0;
 		int rowCount = file.totalRowsinSheet(sheetIndex);
@@ -17,10 +17,8 @@ public class TestDataProviders {
 
 		Object[][] data = new Object[rowCount][colCount];
 
-		for (int rowIndex = 0; rowIndex < rowCount; rowIndex++) 
-		{
-			for (int colIndex = 0; colIndex < colCount; colIndex++) 
-			{
+		for (int rowIndex = 0; rowIndex < rowCount; rowIndex++) {
+			for (int colIndex = 0; colIndex < colCount; colIndex++) {
 				data[rowIndex][colIndex] = file.getData(sheetIndex, rowIndex + 1, colIndex);
 			}
 		}

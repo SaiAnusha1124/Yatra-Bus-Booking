@@ -1,12 +1,12 @@
 package com.yatra.testbase;
 
 import java.util.Properties;
-
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import com.yatra.utils.ConstantsFilePaths;
 import com.yatra.utils.ReadLocatorsFile;
@@ -42,4 +42,8 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
+	@AfterTest
+	public void CloseBrowser() {
+		driver.quit();
+	}
 }

@@ -11,23 +11,16 @@ public class ReadExcelFile {
 	static XSSFWorkbook workbook;
 	static XSSFSheet sheet1;
 
-	public ReadExcelFile(String filePath) 
-	{
-		try 
-		{
+	public ReadExcelFile(String filePath) {
+		try {
 			File file = new File(filePath);
 			FileInputStream fileInput = new FileInputStream(file);
-			try 
-			{
+			try {
 				workbook = new XSSFWorkbook(fileInput);
-			}
-			catch (IOException e) 
-			{
+			} catch (IOException e) {
 				e.printStackTrace();
 			}
-		}
-		catch (FileNotFoundException e) 
-		{
+		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 	}

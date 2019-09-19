@@ -3,7 +3,6 @@ package com.yatra.utils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-
 public class LogReports {
 	Logger log = null;
 
