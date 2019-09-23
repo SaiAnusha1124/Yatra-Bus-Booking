@@ -3,12 +3,34 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="com.yatra.testscripts.SignintoBookBus">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initializeBrowser"/>
+          <include name="signingToBookTicket"/>
+        </methods>
+      </class> <!-- com.yatra.testscripts.SignintoBookBus -->
+      <class name="com.yatra.testscripts.BookaBus">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initializeBrowser"/>
+          <include name="bookingBus"/>
+        </methods>
+      </class> <!-- com.yatra.testscripts.BookaBus -->
       <class name="com.yatra.testscripts.FillPassengerDetails">
         <methods>
-          <include name="booking_Bus"/>
+          <include name="fillingTravellerDetails"/>
+          <include name="closeBrowser"/>
           <include name="initializeBrowser"/>
         </methods>
       </class> <!-- com.yatra.testscripts.FillPassengerDetails -->
+      <class name="com.yatra.testscripts.SelectBus">
+        <methods>
+          <include name="selectingBus"/>
+          <include name="closeBrowser"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- com.yatra.testscripts.SelectBus -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

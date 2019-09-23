@@ -3,15 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.yatra.testscripts.FillPassengerDetails">
+      <class name="com.yatra.testscripts.BusBooking">
         <methods>
+          <include name="selectingBus"/>
           <include name="fillingTravellerDetails"/>
-          <include name="booking_Bus"/>
-          <include name="selecting_Bus"/>
+          <include name="signing" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
           <include name="initializeBrowser"/>
-          <include name="signingToBookTicket"/>
+          <include name="bookingBus"/>
         </methods>
-      </class> <!-- com.yatra.testscripts.FillPassengerDetails -->
+      </class> <!-- com.yatra.testscripts.BusBooking -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

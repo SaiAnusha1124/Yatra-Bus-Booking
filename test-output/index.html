@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-skipped">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\saianusha.podichervu\AppData\Local\Temp\testng-eclipse--1125525261\testng-customsuite.xml</span>
+                    <span>C:\Users\saianusha.podichervu\AppData\Local\Temp\testng-eclipse--1509205003\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods,  1 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.yatra.testscripts.BusBooking" class="method navigator-link" hash-for-method="fillingTravellerDetails">fillingTravellerDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,27 +116,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="booking_Bus">booking_Bus</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.yatra.testscripts.BusBooking" class="method navigator-link" hash-for-method="bookingBus">bookingBus</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="fillingTravellerDetails">fillingTravellerDetails</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.yatra.testscripts.BusBooking" class="method navigator-link" hash-for-method="searchingBus">searchingBus</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="searching_Bus">searching_Bus</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.yatra.testscripts.BusBooking" class="method navigator-link" hash-for-method="selectingBus">selectingBus</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="selecting_Bus">selecting_Bus</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="signingToBookTicket">signingToBookTicket</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.yatra.testscripts.BusBooking" class="method navigator-link" hash-for-method="signing(saianusha.p7@gmail.com, 6301657207)">signing(saianusha.p7@gmail.com, 6301657207)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -137,45 +146,91 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.yatra.testscripts.FillPassengerDetails</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.yatra.testscripts.BusBooking</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="booking_Bus">
-                  </a> <!-- booking_Bus -->
-                  <span class="method-name">booking_Bus</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="fillingTravellerDetails">
                   </a> <!-- fillingTravellerDetails -->
                   <span class="method-name">fillingTravellerDetails</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at com.yatra.utils.ReadExcelFile.getData(ReadExcelFile.java:31)
+	at com.yatra.utils.TestDataProvider.testData(TestDataProvider.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+	... 22 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yatra.testscripts.BusBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingBus">
+                  </a> <!-- bookingBus -->
+                  <span class="method-name">bookingBus</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searching_Bus">
-                  </a> <!-- searching_Bus -->
-                  <span class="method-name">searching_Bus</span>
+                  <a name="searchingBus">
+                  </a> <!-- searchingBus -->
+                  <span class="method-name">searchingBus</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="selecting_Bus">
-                  </a> <!-- selecting_Bus -->
-                  <span class="method-name">selecting_Bus</span>
+                  <a name="selectingBus">
+                  </a> <!-- selectingBus -->
+                  <span class="method-name">selectingBus</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="signingToBookTicket">
-                  </a> <!-- signingToBookTicket -->
-                  <span class="method-name">signingToBookTicket</span>
+                  <a name="signing(saianusha.p7@gmail.com, 6301657207)">
+                  </a> <!-- signing(saianusha.p7@gmail.com, 6301657207) -->
+                  <span class="method-name">signing</span>
+                  <span class="parameters">(saianusha.p7@gmail.com, 6301657207)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,7 +238,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\saianusha.podichervu\AppData\Local\Temp\testng-eclipse--1125525261\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\saianusha.podichervu\AppData\Local\Temp\testng-eclipse--1509205003\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -192,7 +247,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.yatra.testscripts.FillPassengerDetails&quot;/&gt;
+      &lt;class name=&quot;com.yatra.testscripts.BusBooking&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -234,30 +289,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searching_Bus')
-data.setCell(0, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(0, 3, 31807);
+data.setCell(0, 1, 'signing')
+data.setCell(0, 2, 'com.yatra.testscripts.BusBooking')
+data.setCell(0, 3, 4708037);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'signingToBookTicket')
-data.setCell(1, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(1, 3, 17471);
+data.setCell(1, 1, 'searchingBus')
+data.setCell(1, 2, 'com.yatra.testscripts.BusBooking')
+data.setCell(1, 3, 33301);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'fillingTravellerDetails')
-data.setCell(2, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(2, 3, 5223);
+data.setCell(2, 1, 'bookingBus')
+data.setCell(2, 2, 'com.yatra.testscripts.BusBooking')
+data.setCell(2, 3, 13074);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'booking_Bus')
-data.setCell(3, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(3, 3, 4884);
+data.setCell(3, 1, 'selectingBus')
+data.setCell(3, 2, 'com.yatra.testscripts.BusBooking')
+data.setCell(3, 3, 7865);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'selecting_Bus')
-data.setCell(4, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(4, 3, 3103);
+data.setCell(4, 1, 'fillingTravellerDetails')
+data.setCell(4, 2, 'com.yatra.testscripts.BusBooking')
+data.setCell(4, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 1 hours</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -283,35 +338,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.yatra.testscripts.FillPassengerDetails</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.yatra.testscripts.BusBooking</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initializeBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">searching_Bus</span>
-                <span class="method-start">17423 ms</span>
+                <span class="method-name">searchingBus</span>
+                <span class="method-start">19383 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">selecting_Bus</span>
-                <span class="method-start">49237 ms</span>
+                <span class="method-name">selectingBus</span>
+                <span class="method-start">52689 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">booking_Bus</span>
-                <span class="method-start">52342 ms</span>
+                <span class="method-name">bookingBus</span>
+                <span class="method-start">60556 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">signingToBookTicket</span>
-                <span class="method-start">57227 ms</span>
+                <span class="method-name">signing(saianusha.p7@gmail.com, 6301657207)</span>
+                <span class="method-start">79896 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">fillingTravellerDetails</span>
-                <span class="method-start">74701 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">CloseBrowser</span>
-                <span class="method-start">79928 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">4788090 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -43,12 +43,12 @@ public class ReadExcelFile {
 		return colCount;
 	}
 
-	public static void main(String[] args) {
-		ReadExcelFile read = new ReadExcelFile(ConstantsFilePaths.TESTDATA_FILE);
-		read.totalRowsinSheet(0);
-		System.out.println("Total number of Column Count in sheet is :" + read.totalColsinSheet(0));
-		String str = read.getData(0, 0, 0);
-		System.out.println("string is " + str);
-	}
+	/*
+	 * public static void main(String[] args) { ReadExcelFile read = new
+	 * ReadExcelFile(ConstantsFilePaths.TESTDATA_FILE); read.totalRowsinSheet(0);
+	 * System.out.println("Total number of Column Count in sheet is :" +
+	 * read.totalColsinSheet(0)); String str = read.getData(0, 0, 0);
+	 * System.out.println("string is " + str); }
+	 */
 
 }

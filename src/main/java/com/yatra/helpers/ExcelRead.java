@@ -8,7 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelRead {
 	public static String[][] getData(String file) throws Exception {
 		FileInputStream fileInput = new FileInputStream(file);
-		@SuppressWarnings("resource")
+		
 		XSSFWorkbook book = new XSSFWorkbook(fileInput);
 		org.apache.poi.ss.usermodel.Sheet sheet = book.getSheetAt(0);
 		int row1 = sheet.getLastRowNum();
@@ -21,6 +21,7 @@ public class ExcelRead {
 			for (Cell cell : row) {
 				String Data = cell.toString();
 				array[count][count1] = Data;
+				System.out.println(array[count][count1]);
 				count1++;
 			}
 			count++;
@@ -28,3 +29,4 @@ public class ExcelRead {
 		return array;
 	}
 }
+//6018 9383 0709 4092

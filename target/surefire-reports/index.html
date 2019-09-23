@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 3 failed,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.BookaBus" class="method navigator-link" hash-for-method="bookingBus">bookingBus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="fillingTravellerDetails">fillingTravellerDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.SelectBus" class="method navigator-link" hash-for-method="selectingBus">selectingBus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.SignintoBookBus" class="method navigator-link" hash-for-method="signingToBookTicket">signingToBookTicket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,27 +140,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="booking_Bus">booking_Bus</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="fillingTravellerDetails">fillingTravellerDetails</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="searching_Bus">searching_Bus</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="selecting_Bus">selecting_Bus</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.FillPassengerDetails" class="method navigator-link" hash-for-method="signingToBookTicket">signingToBookTicket</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.yatra.testscripts.SearchForBus" class="method navigator-link" hash-for-method="searchingBus">searchingBus</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -137,45 +155,99 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">com.yatra.testscripts.BookaBus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingBus">
+                  </a> <!-- bookingBus -->
+                  <span class="method-name">bookingBus</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.yatra.testscripts.BookaBus.bookingBus(BookaBus.java:20)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">com.yatra.testscripts.FillPassengerDetails</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="booking_Bus">
-                  </a> <!-- booking_Bus -->
-                  <span class="method-name">booking_Bus</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="fillingTravellerDetails">
                   </a> <!-- fillingTravellerDetails -->
                   <span class="method-name">fillingTravellerDetails</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method public void com.yatra.testscripts.FillPassengerDetails.fillingTravellerDetails(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception requires a @DataProvider named : testdata1 in class com.yatra.utils.TestDataProviders
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.yatra.testscripts.SelectBus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searching_Bus">
-                  </a> <!-- searching_Bus -->
-                  <span class="method-name">searching_Bus</span>
+                  <a name="selectingBus">
+                  </a> <!-- selectingBus -->
+                  <span class="method-name">selectingBus</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.yatra.testscripts.SelectBus.selectingBus(SelectBus.java:20)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selecting_Bus">
-                  </a> <!-- selecting_Bus -->
-                  <span class="method-name">selecting_Bus</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.yatra.testscripts.SignintoBookBus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="signingToBookTicket">
                   </a> <!-- signingToBookTicket -->
                   <span class="method-name">signingToBookTicket</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+Caused by: java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:882)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:309)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:260)
+	at com.yatra.utils.ReadExcelFile.getData(ReadExcelFile.java:31)
+	at com.yatra.utils.TestDataProviders.testData(TestDataProviders.java:22)
+	... 26 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yatra.testscripts.SearchForBus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchingBus">
+                  </a> <!-- searchingBus -->
+                  <span class="method-name">searchingBus</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,6 +264,10 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.yatra.testscripts.SearchForBus&quot;/&gt;
+      &lt;class name=&quot;com.yatra.testscripts.SelectBus&quot;/&gt;
+      &lt;class name=&quot;com.yatra.testscripts.BookaBus&quot;/&gt;
+      &lt;class name=&quot;com.yatra.testscripts.SignintoBookBus&quot;/&gt;
       &lt;class name=&quot;com.yatra.testscripts.FillPassengerDetails&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -206,7 +282,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -234,30 +310,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searching_Bus')
-data.setCell(0, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(0, 3, 17882);
+data.setCell(0, 1, 'searchingBus')
+data.setCell(0, 2, 'com.yatra.testscripts.SearchForBus')
+data.setCell(0, 3, 25583);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'signingToBookTicket')
+data.setCell(1, 1, 'fillingTravellerDetails')
 data.setCell(1, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(1, 3, 16503);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'selecting_Bus')
-data.setCell(2, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(2, 3, 15681);
+data.setCell(2, 1, 'selectingBus')
+data.setCell(2, 2, 'com.yatra.testscripts.SelectBus')
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'booking_Bus')
-data.setCell(3, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(3, 3, 5442);
+data.setCell(3, 1, 'bookingBus')
+data.setCell(3, 2, 'com.yatra.testscripts.BookaBus')
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'fillingTravellerDetails')
-data.setCell(4, 2, 'com.yatra.testscripts.FillPassengerDetails')
-data.setCell(4, 3, 4050);
+data.setCell(4, 1, 'signingToBookTicket')
+data.setCell(4, 2, 'com.yatra.testscripts.SignintoBookBus')
+data.setCell(4, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -272,9 +348,45 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.yatra.testscripts.SignintoBookBus</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.yatra.testscripts.BookaBus</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.yatra.testscripts.SelectBus</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.yatra.testscripts.FillPassengerDetails</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -283,31 +395,40 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.yatra.testscripts.FillPassengerDetails</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.yatra.testscripts.SearchForBus</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initializeBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">searching_Bus</span>
-                <span class="method-start">17823 ms</span>
+                <span class="method-name">searchingBus</span>
+                <span class="method-start">21677 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yatra.testscripts.SelectBus</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">selecting_Bus</span>
-                <span class="method-start">35708 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectingBus</span>
+                <span class="method-start">47264 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yatra.testscripts.BookaBus</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">booking_Bus</span>
-                <span class="method-start">51389 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookingBus</span>
+                <span class="method-start">47275 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">signingToBookTicket</span>
-                <span class="method-start">56832 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">fillingTravellerDetails</span>
-                <span class="method-start">73336 ms</span>
-              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yatra.testscripts.SearchForBus</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">48582 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

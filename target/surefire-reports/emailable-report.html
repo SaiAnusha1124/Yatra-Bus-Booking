@@ -9,14 +9,28 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">77,388</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num attn">3</td><td class="num">48,454</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.yatra.testscripts.FillPassengerDetails</td><td><a href="#m0">booking_Bus</a></td><td rowspan="1">1568715011581</td><td rowspan="1">5442</td></tr><tr class="passedeven"><td><a href="#m1">fillingTravellerDetails</a></td><td rowspan="1">1568715033528</td><td rowspan="1">4050</td></tr><tr class="passedeven"><td><a href="#m2">searching_Bus</a></td><td rowspan="1">1568714978015</td><td rowspan="1">17882</td></tr><tr class="passedeven"><td><a href="#m3">selecting_Bus</a></td><td rowspan="1">1568714995900</td><td rowspan="1">15681</td></tr><tr class="passedeven"><td><a href="#m4">signingToBookTicket</a></td><td rowspan="1">1568715017024</td><td rowspan="1">16503</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.yatra.testscripts.BookaBus</td><td><a href="#m0">bookingBus</a></td><td rowspan="1">1569227208347</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.yatra.testscripts.FillPassengerDetails</td><td><a href="#m1">fillingTravellerDetails</a></td><td rowspan="1">1569227209524</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="1">com.yatra.testscripts.SelectBus</td><td><a href="#m2">selectingBus</a></td><td rowspan="1">1569227208336</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.yatra.testscripts.SignintoBookBus</td><td><a href="#m3">signingToBookTicket</a></td><td rowspan="1">1569227209520</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.yatra.testscripts.SearchForBus</td><td><a href="#m4">searchingBus</a></td><td rowspan="1">1569227182749</td><td rowspan="1">25583</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.yatra.testscripts.FillPassengerDetails#booking_Bus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.yatra.testscripts.FillPassengerDetails#fillingTravellerDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.yatra.testscripts.FillPassengerDetails#searching_Bus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.yatra.testscripts.FillPassengerDetails#selecting_Bus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.yatra.testscripts.FillPassengerDetails#signingToBookTicket</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.yatra.testscripts.BookaBus#bookingBus</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.yatra.testscripts.BookaBus.bookingBus(BookaBus.java:20)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.yatra.testscripts.FillPassengerDetails#fillingTravellerDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Method public void com.yatra.testscripts.FillPassengerDetails.fillingTravellerDetails(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception requires a @DataProvider named : testdata1 in class com.yatra.utils.TestDataProviders
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.yatra.testscripts.SelectBus#selectingBus</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.yatra.testscripts.SelectBus.selectingBus(SelectBus.java:20)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.yatra.testscripts.SignintoBookBus#signingToBookTicket</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+Caused by: java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:882)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:309)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:260)
+	at com.yatra.utils.ReadExcelFile.getData(ReadExcelFile.java:31)
+	at com.yatra.utils.TestDataProviders.testData(TestDataProviders.java:22)
+	... 26 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.yatra.testscripts.SearchForBus#searchingBus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

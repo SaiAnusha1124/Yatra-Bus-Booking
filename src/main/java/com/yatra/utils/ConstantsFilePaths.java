@@ -28,5 +28,7 @@ public class ConstantsFilePaths {
 
 	public final static String testData_Home = homeDir + "src\\test\\resources" + File.separator + "testdata"
 			+ File.separator;
-	public final static String TESTDATA_FILE = testData_Home + "inputs-yatrabusbooking.xlsx";
+	public final static String TESTDATA_FILE = testData_Home + "inputs1-yatrabusbooking.xlsx";
+	
+	public final static String TESTDATA_FILE1 = testData_Home + "inputs2-yatrabusbooking.xlsx";
 }

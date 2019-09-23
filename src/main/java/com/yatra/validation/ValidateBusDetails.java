@@ -17,7 +17,7 @@ public class ValidateBusDetails extends TestBase {
 	static String actualbordingpointaddress;
 	static String expectedbusname = "Ullal Holidays";
 	static String expectedbustype = "AC Sleeper (2 + 1)";
-	static String expectedseatnumbers = "L18, L17, L13";
+	static String expectedseatnumbers = "L18, L17, L16";
 	static String expectedtotalfare = "2,700";
 	static String expectedbordingpoint = "Y Junction";
 	static String expectedbordingpointaddress = "INFRONT OF SAGAR HOTEL, PH No : 7353019999 , 04066746542 , 04066336542,";

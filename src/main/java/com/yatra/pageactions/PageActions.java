@@ -21,7 +21,8 @@ public class PageActions {
 		driver.findElement(By.xpath(xpath)).click();
 	}
 
-	public static void sendKeys(WebDriver driver, String xpath, String value) {
+	public static void sendKeys(WebDriver driver, String xpath, String value) throws Exception {
+		Thread.sleep(5000);
 		driver.findElement(By.xpath(xpath)).sendKeys(value);
 	}
 
@@ -36,7 +37,9 @@ public class PageActions {
 		js.executeScript("window.scrollTo(100, document.body.scrollHeight)");
 	}
 
-	public static void sendKeys(Keys enter) {
+	public static void sendKeys(Keys enter) 
+	{
+		
 	}
 
 	public static void explicitWait(WebDriver driver, String xpath) {
